@@ -1,5 +1,7 @@
 require 'sinatra'
+require 'contact'
 
+ 
 get '/' do
 	@crm_app = "My CRM"
   erb :index
