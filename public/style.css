@@ -2,13 +2,27 @@ body {
 	text-align: center;
 }
 
+nav ul {
+	padding:0;
+}
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	border: 1px solid black;
+	margin: 2px auto;
+	width: 160px;
+	margin-bottom: 1px;
+}
+
+
 .list{
 	list-style-type: none;
 	border: 1px solid black;
-	margin: auto;
-	width: 150px;
+	margin: 2px auto;
+	width: auto;
 	margin-bottom: 1px;
 }
+
 
 header {
 	font-size: 30px;
@@ -33,9 +47,6 @@ footer {
 	width: 175px; auto
 }
 
-.formheader {
-
-}
 
 textarea {
 	width: 600px;
