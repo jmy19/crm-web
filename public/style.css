@@ -32,3 +32,12 @@ footer {
 	border: 1px solid black;
 	width: 175px; auto
 }
+
+.formheader {
+
+}
+
+textarea {
+	width: 600px;
+	height: 120px;
+}
