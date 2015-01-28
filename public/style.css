@@ -9,20 +9,49 @@ nav ul li {
 	display: inline;
 	list-style-type: none;
 	border: 1px solid black;
+	border-radius: 10px;
 	margin: 2px auto;
 	width: 160px;
 	margin-bottom: 1px;
 }
 
+.mainbackground{
+	background-color:#FAEBD7;
+}
+
+h1 {
+	border-bottom:1px black solid;
+	padding-bottom:21.4px;
+	font-size: 30px;
+	font-family: 'courier new';
+	font-weight: normal
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav{
+	border-bottom: 1px solid black;
+}
 
 .list{
 	list-style-type: none;
 	border: 1px solid black;
 	margin: 2px auto;
-	width: auto;
+	width: 160px;
 	margin-bottom: 1px;
+	padding: 4px;
 }
 
+.namelist{
+	list-style-type: none;
+	border: 1px solid black;
+	border-radius:10px;
+	margin: 2px auto;
+	width: 160px;
+	margin-bottom: 1px;
+}
 
 header {
 	font-size: 30px;
@@ -42,9 +71,17 @@ h4 {
 }
 
 footer {
+	margin-top:20px;
+	border-top: 2px solid black;
+
+}
+
+footer p{
 	margin:10px auto 0px;
 	border: 1px solid black;
-	width: 175px; auto
+	width: 175px; 
+	border-radius:10px;
+
 }
 
 
