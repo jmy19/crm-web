@@ -1,0 +1,34 @@
+body {
+	text-align: center;
+}
+
+.list{
+	list-style-type: none;
+	border: 1px solid black;
+	margin: auto;
+	width: 150px;
+	margin-bottom: 1px;
+}
+
+header {
+	font-size: 30px;
+	font-family: 'courier new';
+	border-bottom: 1px solid black;
+	width: 75%;
+	margin: 0 auto 5px;
+
+}
+
+h4 {
+	margin:0;
+	margin-bottom:2px;
+	border:0;
+	padding:0;
+	width:auto;
+}
+
+footer {
+	margin:10px auto 0px;
+	border: 1px solid black;
+	width: 175px; auto
+}

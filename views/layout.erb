@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title><%= @title %></title>
+
+	<link rel="stylesheet" type="text/css" href="/style.css">
+
 </head>
 <body>
+	<header>Jason's CRM</header>
+	<h4>Navigation Menu</h4>
+	<nav class=nav>
+  	<li class=list><a href="/contacts">View all contacts</a></li>
+  	<li class=list><a href="/contacts/new_contact">Add a Contact</a></li>
+	</nav>
+
 	<%= yield %>
+
+
+	<footer><a href="/">Return to Home Page</a></footer>
 </body>
 </html>

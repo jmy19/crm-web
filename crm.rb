@@ -5,15 +5,18 @@ require_relative 'rolodex'
 $rolodex = Rolodex.new
 
 get '/' do
+	@title = "My CRM"
 	@crm_app = "My CRM"
   erb :index
 end
 
 get '/contacts' do
+	@title = "Contacts"
 	erb :contacts
 end
 
 get '/contacts/new_contact' do
+	@title = "New Contact"
   erb :new_contact
 end
 
