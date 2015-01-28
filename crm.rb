@@ -22,3 +22,10 @@ post '/contacts' do
   $rolodex.add_contact(new_contact)
   redirect to('/contacts')
 end
+
+get '/contacts/:id/edit' do 
+@contact = $rolodex.find_contact(params[:id])
+erb :edit
+end
+
+
