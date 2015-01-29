@@ -4,6 +4,8 @@ require_relative 'rolodex'
 
 $rolodex = Rolodex.new
 
+$rolodex.add_contact(Contact.new("Johnny", "Bravo", "johnny@bitmakerlabs.com", "Rockstar"))
+
 get '/' do
 	@title = "My CRM"
 	@crm_app = "My CRM"
@@ -26,9 +28,9 @@ post '/contacts' do
   redirect to('/contacts')
 end
 
-get '/contacts/:id/edit' do 
-@contact = $rolodex.find_contact(params[:id])
-erb :edit
+get '/contacts/1000' do 
+@contact = $rolodex.find_contact(1000)
+erb :show_contact
 end
 
 

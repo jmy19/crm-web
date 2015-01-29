@@ -16,3 +16,4 @@ class Rolodex
   	@contacts.find { |contact| contact.id == id.to_i}
 	end
 end
+
